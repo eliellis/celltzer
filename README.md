@@ -1,6 +1,6 @@
 # excelsior
 
-Transform .xlsx files into template formatted HTML with ease! Supports handlebars, EJS, and pug out of the box.
+Transform .xlsx files into template formatted HTML with ease! Supports handlebars, EJS, and pug out of the box. 📈📊💃
 
 ## Install
 
