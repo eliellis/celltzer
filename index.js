@@ -10,7 +10,7 @@ program
 .command('transform <inputFile> <templateFile>')
 .alias('t')
 .option('-o --output <filename>', 'Output file name.')
-.option('-z --zeroIndex', 'Manipulates sheet data from named columns and 1-indexed rows to 0-indexed columns and rows.')
+.option('-z --zeroIndexed', 'Manipulates sheet data from named columns and 1-indexed rows to 0-indexed columns and rows.')
 .description('Transforms an input Excel file to an HTML document using a specified template.')
 .action(async (inputFile, templateFile, cmd) => {
   const wb = xlsx.readFile(inputFile);
@@ -28,7 +28,7 @@ program
       console.log(`Total number of cells: ${ size }`);
 
 
-      if (cmd.zeroIndex) {
+      if (cmd.zeroIndexed) {
         locals.sheets = locals.sheets.map(sheet => {
           if (sheet['!ref']) {
             const range = xlsx.utils.decode_range(sheet['!ref']);
