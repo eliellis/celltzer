@@ -28,4 +28,13 @@ To specify an output file, use something like `excelsior transform -o output.htm
 
 ### Programmatic Usage
 
-TODO
+```js
+xl = require('excelsior');
+xl.transformFile('input.xlsx', 'template.hbs', {
+  engine: 'handlebars',
+  output: 'out.html', // will pass output as a string if no file name is specified and promise is resolved
+  engineOpts: { pretty: true }
+})
+.then(() => console.log('Success!'))
+.catch((err) => console.error('Uh oh.'));
+```

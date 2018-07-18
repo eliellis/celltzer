@@ -1,7 +1,8 @@
 class TemplateEngine {
-  constructor(templateString, locals) {
+  constructor(templateString, locals, engineOpts = {}) {
     this.templateString = templateString;
     this.locals = locals;
+    this.engineOpts = engineOpts;
     this.output = `<head>
   <title>Generated with TemplateEngine base-class</title>
 </head>

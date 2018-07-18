@@ -2,12 +2,12 @@ const TemplateEngine = require('./base.js');
 const pug = require('pug');
 
 class PugTemplateEngine extends TemplateEngine {
-  constructor(templateString, locals) {
-    super(templateString, locals);
+  constructor(templateString, locals, engineOpts) {
+    super(templateString, locals, engineOpts);
   }
 
   compile() {
-    return pug.compile(this.templateString, { pretty: true });
+    return pug.compile(this.templateString, { pretty: true, ...this.engineOpts });
   }
 
   render() {
