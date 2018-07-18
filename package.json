@@ -1,0 +1,17 @@
+{
+  "name": "excel2html",
+  "version": "0.0.1",
+  "description": "Translate an Excel document into programatically formatted HTML.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Ellis",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.16.0",
+    "ejs": "^2.6.1",
+    "xlsx": "^0.13.2"
+  }
+}
