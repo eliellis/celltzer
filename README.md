@@ -1,6 +1,6 @@
 # excelsior
 
-Transform .xlsx files into template formatted HTML with ease!
+Transform .xlsx files into template formatted HTML with ease! Supports handlebars, EJS, and pug out of the box.
 
 ## Install
 
@@ -16,11 +16,13 @@ In your template, the `sheets` variable will be exposed, which will contain an a
 
 2. a 2D array of zero-indexed rows and columns e.g. `[ [ [CellObject], [CellObject], [CellObject], ...], [ [CellObject], [CellObject], [CellObject], ...] ...]`
 
-For the 2D array structure, you should pass the `-z` or `--zeroIndexed` flag.
+For the 2D array structure, you should pass the `-z` or `--zeroIndexed` flag into the CLI.
+
+Documentation for the `CellObject` data type can be found [here](https://docs.sheetjs.com/#cell-object).
 
 ### CLI
 
-Executing a command like `excelsior transform input.xlsx template.ejs` will print your templated HTML to the standard output.
+Executing a command like `excelsior transform -e ejs input.xlsx template.ejs` will print your templated HTML to the standard output using the EJS template engine.
 
 To specify an output file, use something like `excelsior transform -o output.html input.xlsx template.ejs`
 
