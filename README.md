@@ -2,7 +2,7 @@
 
 Transform .xlsx files into template formatted HTML with ease! Kelly Roland approved.
 
-![dilemma](https://media.giphy.com/media/OgRQGJ3dbuz8A/giphy.gif)<p><a href="https://giphy.com/gifs/OgRQGJ3dbuz8A">via GIPHY</a></p>
+![dilemma](https://i.imgur.com/MsZML3s.gif)
 
 ## Install
 
