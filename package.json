@@ -1,5 +1,5 @@
 {
-  "name": "excel2html",
+  "name": "excelsior",
   "version": "0.0.1",
   "description": "Translate an Excel document into programatically formatted HTML.",
   "main": "index.js",
