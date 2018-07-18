@@ -1,6 +1,8 @@
 # excelsior
 
-Transform .xlsx files into template formatted HTML with ease!
+Transform .xlsx files into template formatted HTML with ease! Kelly Roland approved.
+
+<div style="width:100%;height:0;padding-bottom:74%;position:relative;"><iframe src="https://giphy.com/embed/OgRQGJ3dbuz8A" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/OgRQGJ3dbuz8A">via GIPHY</a></p>
 
 ## Install
 
