@@ -1,8 +1,6 @@
 # excelsior
 
-Transform .xlsx files into template formatted HTML with ease! Kelly Roland approved.
-
-![dilemma](https://i.imgur.com/MsZML3s.gif)
+Transform .xlsx files into template formatted HTML with ease!
 
 ## Install
 
